@@ -1,4 +1,4 @@
-# Github Search by Mark Joseph Victoria
+# Github Repository Search by Mark Joseph Victoria
 
 This project is made using Vite and Vue 3. 
 
