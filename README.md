@@ -1,6 +1,6 @@
-# github-search-by-mjv
+# Github Search by Mark Joseph Victoria
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is made using Vite and Vue 3. 
 
 ## Recommended IDE Setup
 
@@ -50,3 +50,16 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+
+### Note: Github Search results only up to 1000 repositories 
+
+As the application is connecting to Github publicly using an API key, only 1000 repositories can be loaded in the search results.
+
+The public API also only allows 10 requests per minute. Because of this, The API calls in this app is throttled to call only one request for every 6 seconds.
+
+## Libraries used
+
+Uses [Vue 3](https://github.com/vuejs/vue), [Vue-router](https://github.com/vuejs/vue-router), [Axios](https://github.com/axios/axios), [Iconify](https://github.com/iconify/iconify) and [JavaScript Time Ago](https://gitlab.com/catamphetamine/javascript-time-ago) Libraries
+
+

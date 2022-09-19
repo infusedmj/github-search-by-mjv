@@ -5,7 +5,10 @@ import GithubSearch from "../GithubSearch.vue";
 
 describe("GithubSearch", () => {
   it("renders properly", () => {
-    const wrapper = mount(GithubSearch, { props: { term: "vuejs/core" } });
-    expect(wrapper.text()).toContain("Vue.js");
+    const wrapper = mount(GithubSearch, {
+      props: { term: "vuejs/core", page: 1, sort: "best_match" },
+    });
+    console.log(wrapper.text());
+    expect(wrapper.text()).toContain("Github Repository Search");
   });
 });
